@@ -1,0 +1,4 @@
+Our Value for G is:
+6.34816581487e-22
+Our Value for N_0 is:
+1.57525815986e+23
