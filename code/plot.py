@@ -19,7 +19,7 @@ N_0_times_G = 0.17
 
 ax.plot(100*theory_Y, N_0_times_G*theory_scattering, label="Prediction\nwith $N_0*G={:.2f}$".format(N_0_times_G))
 ax.errorbar(Y, N_2, delta_N_2, marker='o',ls='', label='Measurement')
-ax.set_ylabel('scattering $N_2$')
-ax.set_xlabel('$Y$ (cm)')
+ax.set_ylabel('Detection Rate $N_2$')
+ax.set_xlabel('Distance from foil to detector $Y$ (cm)')
 ax.legend(loc=4)
 plt.savefig('../figures/N_2_prediction_and_data.pdf')
